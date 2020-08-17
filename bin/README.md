@@ -1,21 +1,14 @@
 # Roulette
 
-Esta Api contiene servicios para crear ruletas, las cuales se podran abrir o cerrar y apostar en ellas.
+En esta Api puedes interactuar con una ruleta online la cual tiene varios servicios como abrir, cerrar y apostar en ella.
 
 ---
 
-## Como correr el proyecto
+## Datos de la Api
 
-Para poder correr el proyecto correctamente debes tener instalado redis server, una vez instalado continuamos con:
+- Utilizamos redis server que es donde corremos el servcio de la Base de Datos
+
+- Para correr el proyecto es por medio de  SpringBoot App
+
+- La documentacion  de los servicios se puede consultar en http://localhost:8080/swagger-ui.html#/
     
-    - Con redis-server en una terminal corremos el servidor de la BD
-
-    - Importar el proyecto en Eclipse, SpringToolSuite o en el IDE que deseamos
-
-    - Instalamos dependencias con maven UpdateProject o maven install
-
-    - Corremos el proyecto como SpringBoot App
-
-    - Para ver la documentacion de los servicios vamos a esta direccion http://localhost:8080/swagger-ui.html
-
-    - puedes obtener la dockerizacion del proyecto con el siguiente comando docker pull johncarlososorio/roulette
